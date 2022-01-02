@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  background: rgb(137, 225, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  width: 350px;
+  padding: 40px 50px;
+  background: rgb(44, 42, 42);
+}
+.listName {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.listInput {
+  background-color: white;
+  color: rgb(44, 42, 42);
+  font-size: 16px;
+  border-radius: 5px;
+  height: 28px;
+  border: none;
+  padding: 5px 18px 6px 18px;
+}
+.listButton {
+  background-color: white;
+  color: rgb(44, 42, 42);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 28px;
+  border: none;
+  padding: 5px 18px 6px 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
